@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background: #1F2937;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.unit-entry {
+    background: #6943FF;
+    margin: 0 0 15px; 
+    padding: 20px;
+
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.unit-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 115px;
+    gap: 25px;
+    margin: auto;
+}
+
+#unit-input {
+    border: 2px solid #B295FF;
+    background: transparent;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 58px; 
+    font-weight: 800;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+button {
+    border-radius: 5px;
+    color: #3D3D3D;
+    border: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+button:disabled {
+    cursor: not-allowed;
+    color: #fff;
+}
+
+/* Hide number arrows */
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+.conversion-results {
+    padding: 20px;
+}
+
+.box {
+    padding: 20px;
+    background: #273549;
+    margin-bottom: 25px;
+}
+
+.box h3 {
+    color: #CCC1FF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
