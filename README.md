@@ -9,4 +9,4 @@ This is a simple web application to convert between metric and imperial units fo
 - **Kilograms** ↔ **Pounds**
 
 Conversion results are displayed instantly, showing conversions both ways for each measurement.  
-The tool is made with plain HTML, CSS, and JavaScript—**no external dependencies required**.
+The tool is made with plain HTML, CSS, and JavaScript **no external dependencies required**.
